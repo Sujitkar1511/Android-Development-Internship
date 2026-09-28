@@ -1,4 +1,4 @@
-﻿# 📱 Android Development Internship
+# 📱 Android Development Internship
 
 Welcome to the official repository for **Android Development Internship** projects developed by **[Sujit Kar](https://github.com/Sujitkar1511)**.
 
@@ -14,6 +14,7 @@ This repository serves as a showcase of native Android applications built using 
 | **Task 2** | [🎓 CollegeWebViewApp](./CollegeWebViewApp) | An interactive WebView application loading the Panskura Banamali College portal with back navigation. | Kotlin, WebView, Material UI | ✅ Completed |
 | **Task 3** | [🌐 MyFirstWebApplication](./MyFirstWebApplication) | An Android UI application featuring custom typography, gradient styling, and interactive elements. | Kotlin, XML, Material Components | ✅ Completed |
 | **Task 4** | [👥 recycleBing](./recycleBing) | A Friend Request management app utilizing **RecyclerView** and **CardView** with dynamic data adapter. | Kotlin, RecyclerView, CardView | ✅ Completed |
+| **Task 5** | [💼 LinkdinProfile](./LinkdinProfile) | A LinkedIn Profile UI clone application featuring custom cards, badges, and responsive sections. | Kotlin, XML, ConstraintLayout, Material UI | ✅ Completed |
 
 ---
 
