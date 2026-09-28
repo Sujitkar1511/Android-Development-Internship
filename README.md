@@ -1,23 +1,33 @@
 ﻿# 📱 Android Development Internship
 
-Welcome to the repository for **Android Development Internship** projects by **[Sujit Kar](https://github.com/Sujitkar1511)**.
+Welcome to the official repository for **Android Development Internship** projects developed by **[Sujit Kar](https://github.com/Sujitkar1511)**.
 
-This repository contains various Android applications developed during the internship, organized neatly into dedicated task folders.
+This repository serves as a showcase of native Android applications built using **Kotlin**, **XML Layouts**, **Material Design 3**, and modern Android development best practices.
 
 ---
 
-## 📁 Repository Structure
+## 📁 Repository Overview & Tasks
 
 | Task | Project Folder | Description | Tech Stack | Status |
 | :--- | :--- | :--- | :--- | :---: |
-| **Task 1** | [SimpleCalculator](./SimpleCalculator) | A modern Android Calculator application performing basic arithmetic operations with an intuitive UI. | Kotlin, XML, Android SDK | ✅ Completed |
-| **Task 2** | [CollegeWebViewApp](./CollegeWebViewApp) | An Android WebView application loading the Panskura Banamali College portal with back navigation. | Kotlin, WebView, Android SDK | ✅ Completed |
-| **Task 3** | [MyFirstWebApplication](./MyFirstWebApplication) | An introductory Android application featuring custom UI styling, user input, and interactive components. | Kotlin, XML, Android SDK | ✅ Completed |
-| **Task 4** | [recycleBing](./recycleBing) | An Android application implementing RecyclerView and CardView for a Friend Request list layout. | Kotlin, RecyclerView, CardView, Android SDK | ✅ Completed |
+| **Task 1** | [🧮 SimpleCalculator](./SimpleCalculator) | A sleek Android calculator app performing arithmetic operations with custom button styling. | Kotlin, XML, ConstraintLayout | ✅ Completed |
+| **Task 2** | [🎓 CollegeWebViewApp](./CollegeWebViewApp) | An interactive WebView application loading the Panskura Banamali College portal with back navigation. | Kotlin, WebView, Material UI | ✅ Completed |
+| **Task 3** | [🌐 MyFirstWebApplication](./MyFirstWebApplication) | An Android UI application featuring custom typography, gradient styling, and interactive elements. | Kotlin, XML, Material Components | ✅ Completed |
+| **Task 4** | [👥 recycleBing](./recycleBing) | A Friend Request management app utilizing **RecyclerView** and **CardView** with dynamic data adapter. | Kotlin, RecyclerView, CardView | ✅ Completed |
 
 ---
 
-## 🚀 How to Run the Projects
+## 🛠️ Tech Stack & Key Concepts
+
+- **Language:** Kotlin
+- **UI & Layouts:** ConstraintLayout, LinearLayout, CardView, Material Design 3
+- **Components:** RecyclerView, Adapter Pattern, WebView, ViewBinding / ViewCompat
+- **Build System:** Gradle (Kotlin DSL), Android Gradle Plugin (AGP)
+- **Minimum SDK:** Android 7.0 (API Level 24+)
+
+---
+
+## 🚀 How to Run any Project
 
 1. **Clone the Repository:**
    ```bash
@@ -25,22 +35,22 @@ This repository contains various Android applications developed during the inter
    ```
 
 2. **Open in Android Studio:**
-   - Launch **Android Studio**.
-   - Select **Open an existing project**.
-   - Navigate to the specific project folder (e.g., `recycleBing`, `SimpleCalculator`, or `CollegeWebViewApp`).
-   - Allow Gradle to sync and build the project.
+   - Open **Android Studio**.
+   - Click **Open** and select any specific task folder (e.g., `recycleBing` or `SimpleCalculator`).
+   - Allow Gradle to sync and download necessary dependencies.
 
-3. **Run the App:**
-   - Select an Android Virtual Device (Emulator) or connect a physical device with USB Debugging enabled.
-   - Click **Run** (Shift + F10).
+3. **Run on Emulator / Physical Device:**
+   - Select your target Android Emulator or physical device (with USB Debugging enabled).
+   - Press **Run** (`Shift + F10`).
 
 ---
 
-## 👨‍💻 Developer Information
+## 👨‍💻 Developer Profile
 
 - **Developer:** Sujit Kar
 - **GitHub:** [@Sujitkar1511](https://github.com/Sujitkar1511)
+- **Role:** Android Developer Intern
 
 ---
 
-⭐ *Feel free to star this repository if you find it helpful!*
+⭐ *If you find this repository helpful, feel free to give it a star!*

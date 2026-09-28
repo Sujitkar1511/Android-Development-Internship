@@ -1,34 +1,47 @@
-﻿# College WebView App 📱
+﻿# 🎓 CollegeWebViewApp - Task 2
 
-An Android WebView Application built using Kotlin and Android Jetpack libraries that embeds and renders the **Panskura Banamali College** web portal (https://www.panskurabanamalicollege.ac.in/).
+An Android WebView application designed to load and navigate the official **Panskura Banamali College** portal seamlessly.
+
+---
 
 ## 🌟 Key Features
-- **Integrated WebView**: Seamless browsing experience within the Android App environment.
-- **JavaScript Support**: Enables full client-side scripting and interactive portal features.
-- **Hardware Back Navigation**: Intercepts physical back button presses to navigate back within the WebView history before exiting the app.
-- **Modern UI Theme**: Clean, responsive layout with custom launcher icons.
 
-## 🛠️ Built With
-- **Language**: Kotlin
-- **Framework**: Android SDK
-- **UI Components**: AppCompat, WebView
-- **Build System**: Gradle (Kotlin DSL)
+- **Embedded WebView Integration:** Loads web pages inside the app without opening an external browser.
+- **In-App Navigation:** Overrides default URL loading to keep browsing within the app.
+- **Back Key Navigation:** Handles hardware back button presses to navigate back through web browsing history.
+- **Custom Header Bar:** Displays an attractive header with badge tags and action buttons.
 
-## 📁 Project Structure
-`	ext
+---
+
+## 🛠️ Tech Stack
+
+- **Language:** Kotlin
+- **Component:** `android.webkit.WebView`, `WebViewClient`
+- **Permissions:** `android.permission.INTERNET`, `android.permission.ACCESS_NETWORK_STATE`
+- **UI Styling:** Material Design, Custom Vector Drawables & Badges
+
+---
+
+## 📂 Project Structure
+
+```text
 CollegeWebViewApp/
 ├── app/
-│   ├── src/
-│   │   └── main/
-│   │       ├── java/com/example/mywebapp/MainActivity.kt
-│   │       ├── res/
-│   │       └── AndroidManifest.xml
-│   └── build.gradle.kts
-├── build.gradle.kts
-└── settings.gradle.kts
-`
+│   └── src/main/
+│       ├── java/com/example/mywebapp/
+│       │   └── MainActivity.kt       # WebView setup & back navigation logic
+│       └── res/
+│           ├── layout/
+│           │   └── activity_main.xml # WebView and Header layout
+│           └── drawable/             # Gradient backgrounds & badge styling
+└── build.gradle.kts
+```
 
-## 🚀 How to Run
-1. Open the CollegeWebViewApp folder in **Android Studio**.
-2. Sync Project with Gradle Files.
-3. Run on an Android Emulator or connected physical device running Android 7.0 (API 24) or higher.
+---
+
+## 🚀 Getting Started
+
+1. Open Android Studio.
+2. Select **Open** and navigate to the `CollegeWebViewApp` directory.
+3. Ensure active internet connection on emulator/device.
+4. Build & Run the app (`Shift + F10`).
