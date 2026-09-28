@@ -1,4 +1,4 @@
-﻿# 📱 Android Development Internship
+# 📱 Android Development Internship
 
 Welcome to the repository for **Android Development Internship** projects by **[Sujit Kar](https://github.com/Sujitkar1511)**.
 
@@ -12,6 +12,7 @@ This repository contains various Android applications developed during the inter
 | :--- | :--- | :--- | :--- | :---: |
 | **Task 1** | [SimpleCalculator](./SimpleCalculator) | A modern Android Calculator application performing basic arithmetic operations with an intuitive UI. | Kotlin, XML, Android SDK | ✅ Completed |
 | **Task 2** | [CollegeWebViewApp](./CollegeWebViewApp) | An Android WebView application loading the Panskura Banamali College portal with back navigation. | Kotlin, WebView, Android SDK | ✅ Completed |
+| **Task 3** | [MyFirstWebApplication](./MyFirstWebApplication) | An introductory Android application featuring custom UI styling, user input, and interactive components. | Kotlin, XML, Android SDK | ✅ Completed |
 
 ---
 
